@@ -1,4 +1,4 @@
-require('../node_modules/@salesforce-ux/design-system/assets/styles/salesforce-lightning-design-system.css');
+
 
 var BlockSDK = require('blocksdk');
 if (window.self === window.top) {
