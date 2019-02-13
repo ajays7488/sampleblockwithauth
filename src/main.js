@@ -37,9 +37,9 @@ window.setContent = function (url) {
 var getImages = function () {
 	post('asset/v1/content/assets/query', {
 		query: {
-			property: "assetType.CustomerKey",
+			property: "assetType.customerKey",
 			simpleOperator: "in",
-			value: ["Wednesday","thursday"]
+			value: ["7ac5bd0c-88a2-4a43-b55d-e67f6078667b"]
 		}
 	}, function (data) {
 		var dom = '';
