@@ -39,7 +39,7 @@ var getImages = function () {
 		query: {
 			property: "assetType.id",
 			simpleOperator: "in",
-			value: [20, 22, 23, 28]
+			value: [294977]
 		}
 	}, function (data) {
 		var dom = '';
